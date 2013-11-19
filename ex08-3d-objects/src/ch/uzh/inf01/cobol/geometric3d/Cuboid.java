@@ -59,9 +59,9 @@ public class Cuboid
 
     // private methods
 
-    private void checkNegativeDimension(double pLength)
+    private void checkNegativeDimension(double pDim)
             throws Exception {
-        if (pLength <= 0) {
+        if (pDim <= 0) {
             throw new Exception("Dimension must be > 0");
         }
     }

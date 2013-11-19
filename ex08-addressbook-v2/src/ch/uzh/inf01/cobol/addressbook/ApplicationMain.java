@@ -29,7 +29,7 @@ public class ApplicationMain {
     }
 
     private static void printUsage() {
-        System.out.println("Usage: java Main <options>\nOptions:\n\t--cli\truns the command line interface\n\t--gui\truns the graphical user interface (default)");
+        System.out.println("Usage: java ApplicationMain <options>\nOptions:\n\t--cli\truns the command line interface\n\t--gui\truns the graphical user interface (default)");
     }
 
 }

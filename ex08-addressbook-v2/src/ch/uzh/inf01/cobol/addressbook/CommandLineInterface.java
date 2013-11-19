@@ -62,16 +62,16 @@ public class CommandLineInterface {
         System.out.println("Exiting...");
     }
 
-    private void setCurrentSelection(int pNr) {
+    private void setCurrentSelection(long pNr) {
         mCurrentSelection = mBook.findById(pNr);
     }
 
-    private int askForSelection(Scanner pIn) {
+    private long askForSelection(Scanner pIn) {
         System.out.println("Select one of the following contacts by number: ");
         printAllContacts();
 
         System.out.println("Which contact do you want to select?");
-        int nr = pIn.nextInt();
+        long nr = pIn.nextLong();
 
         return nr;
     }

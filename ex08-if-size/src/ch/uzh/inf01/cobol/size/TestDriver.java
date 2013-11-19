@@ -12,8 +12,8 @@ public class TestDriver {
 
         list[0] = new Car(2.5, 1.8, 3);
         list[1] = new Car(2.2, 1.6, 2.6);
-        list[3] = new SoccerField(80, 43);
-        list[4] = new SoccerField(82, 44);
+        list[2] = new SoccerField(80, 43);
+        list[3] = new SoccerField(82, 44);
 
         for (ISize entry : list) {
             System.out.println(getSquare(entry));
