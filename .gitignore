@@ -1,3 +1,10 @@
+# Eclipse ignores
+.metadata/
+.classpath
+.project
+.settings/
+.checkstyle
+
 # Default Java ignores
 *.class
 *.jar
